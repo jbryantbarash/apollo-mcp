@@ -1,0 +1,33 @@
+{
+  "name": "apollo-mcp",
+  "version": "1.0.0",
+  "description": "Apollo MCP server for lead research and contact discovery",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "start": "tsx server.ts",
+    "dev": "tsx --watch server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "apollo",
+    "crm",
+    "contacts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "*",
+    "axios": "*",
+    "dotenv": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "tsx": "*",
+    "typescript": "*",
+    "@types/node": "*"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
